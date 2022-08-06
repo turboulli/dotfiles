@@ -1,3 +1,7 @@
+" Keep default configuration
+unlet! skip_defaults_vim
+source $VIMRUNTIME/defaults.vim
+
 " Line numbers
 set number relativenumber " hybrid line numbers
 
