@@ -8,6 +8,12 @@ let g:termdebug_wide=1
 " Switch buffers without writing
 set hidden
 
+" Tabs
+set tabstop=4 " number of spaces for tab
+set shiftwidth=4 " number of spaces for indentation
+set softtabstop=4 " remove correct number of spaces on e.g. <BS>
+set expandtab " insert spaces instead of tab
+
 " Escapekey
 inoremap kj <Esc>
 vnoremap kj <Esc>
@@ -42,4 +48,3 @@ inoremap <silent> <leader>f <Esc>A<Space>{<CR>}<Esc>O
 " Faster tab switching inside terminal
 tnoremap <silent> gt <C-W>gt
 tnoremap <silent> gT <C-W>gT
-
