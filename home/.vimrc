@@ -46,7 +46,7 @@ nnoremap <silent> <Leader>tv :vert terminal<CR>
 inoremap <silent> <leader>c {}<Esc>i
 
 " Make multiline curlies
-nnoremap <silent> <leader>f A<BS><Space>{<CR>}<CR><CR><Esc>kkO " e.g. define function declarations
+nnoremap <silent> <leader>f A<BS><Space>{<CR>}<CR><CR><Esc>kkO
 inoremap <silent> <leader>f <Esc>A<Space>{<CR>}<Esc>O
 
 " Faster tab switching inside terminal
