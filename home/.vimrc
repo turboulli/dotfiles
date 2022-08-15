@@ -12,6 +12,9 @@ let g:termdebug_wide=1
 " Switch buffers without writing
 set hidden
 
+" No swap files
+set noswapfile
+
 " Tabs
 set tabstop=4 " number of spaces for tab
 set shiftwidth=4 " number of spaces for indentation
