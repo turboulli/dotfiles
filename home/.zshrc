@@ -31,3 +31,6 @@ setopt HIST_IGNORE_DUPS
 
 # Faster directory navigation
 setopt autopushd
+
+# Aliases
+alias ls='ls --color=auto'
