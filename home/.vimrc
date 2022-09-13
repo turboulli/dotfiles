@@ -55,3 +55,20 @@ inoremap <silent> <leader>f <Esc>A<Space>{<CR>}<Esc>O
 " Faster tab switching inside terminal
 tnoremap <silent> gt <C-W>gt
 tnoremap <silent> gT <C-W>gT
+
+" Termdebug controls
+nnoremap <silent> <F5>  :Run<CR>
+nnoremap <silent> <F9>  :Step<CR>
+nnoremap <silent> <F10> :Over<CR>
+nnoremap <silent> <F11> :Finish<CR>
+nnoremap <silent> <F12> :Continue<CR>
+
+tnoremap <silent> <F5>  <C-W>:Run<CR>
+tnoremap <silent> <F9>  <C-W>:Step<CR>
+tnoremap <silent> <F10> <C-W>:Over<CR>
+tnoremap <silent> <F11> <C-W>:Finish<CR>
+tnoremap <silent> <F12> <C-W>:Continue<CR>
+
+" Termdebug breakpoints
+nnoremap <silent> <leader>b :Break<CR>
+nnoremap <silent> <leader>n :Clear<CR>
