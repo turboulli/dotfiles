@@ -1,5 +1,7 @@
 Xft.dpi: 120
 
+UXTerm*metaSendsEscape: true
+
 UXTerm*faceName: Monospace
 UXTerm*faceSize: 11
 
