@@ -71,4 +71,4 @@ tnoremap <silent> <F12> <C-W>:Continue<CR>
 
 " Termdebug breakpoints
 nnoremap <silent> <leader>b :Break<CR>
-nnoremap <silent> <leader>n :Clear<CR>
+nnoremap <silent> <leader>d :Clear<CR>
