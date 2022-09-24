@@ -181,4 +181,9 @@ bar {
         status_command i3status
 }
 
+# Additional settings (user)
 hide_edge_borders smart
+
+# Additional keybinds (user)
+bindsym $mod+b exec firefox
+
