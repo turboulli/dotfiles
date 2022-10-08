@@ -5,6 +5,9 @@ source $VIMRUNTIME/defaults.vim
 " Line numbers
 set number relativenumber " hybrid line numbers
 
+" Line wrap
+set nowrap
+
 " Debug view
 packadd termdebug
 let g:termdebug_wide=1
